@@ -5,7 +5,6 @@ import RedBox from './components/RedBox'
 import Box from './components/Box'
 import Time from './components/Time'
 import ChangeBox from './components/ChangeBox'
-import Timer from './components/Timer'
 
 
 function App() {
@@ -64,7 +63,6 @@ function App() {
         <h1>X: {clientXY.x} Y: {clientXY.y}</h1>
         <h4>{word}</h4>
         <ChangeBox />
-        <Timer />
       </div>
   )
 }
